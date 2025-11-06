@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Standout Hjälpcenter",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Standout Logotyp",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Getting Started": {
+    "message": "Kom igång",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Using Standout": {
+    "message": "Använda Standout",
+    "description": "Navbar item with label Using Standout"
+  },
+  "item.label.Tutorials": {
+    "message": "Guider",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.Troubleshooting": {
+    "message": "Felsökning",
+    "description": "Navbar item with label Troubleshooting"
+  },
+  "item.label.FAQ": {
+    "message": "Vanliga frågor",
+    "description": "Navbar item with label FAQ"
+  }
+}

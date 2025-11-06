@@ -1,0 +1,114 @@
+{
+  "homepage.hero.title": {
+    "message": "Hej. Hur kan vi hjälpa?",
+    "description": "Hero title on homepage"
+  },
+  "homepage.search.placeholder": {
+    "message": "Sök efter hjälp...",
+    "description": "Search input placeholder"
+  },
+  "homepage.categories.gettingStarted.title": {
+    "message": "Kom igång",
+    "description": "Category title"
+  },
+  "homepage.categories.gettingStarted.description": {
+    "message": "Allt du behöver veta för att komma igång med Standout.",
+    "description": "Category description"
+  },
+  "homepage.categories.gettingStarted.articles.account": {
+    "message": "Skapa ditt första konto",
+    "description": "Article title"
+  },
+  "homepage.categories.gettingStarted.articles.teammates": {
+    "message": "Bjud in teammedlemmar",
+    "description": "Article title"
+  },
+  "homepage.categories.gettingStarted.articles.workspace": {
+    "message": "Navigera i din arbetsyta",
+    "description": "Article title"
+  },
+  "homepage.categories.usingStandout.title": {
+    "message": "Använda Standout",
+    "description": "Category title"
+  },
+  "homepage.categories.usingStandout.description": {
+    "message": "Lär dig hur du använder Standout dagligen och får ut det mesta av funktionerna.",
+    "description": "Category description"
+  },
+  "homepage.categories.usingStandout.articles.integrations": {
+    "message": "Hantera integrationer",
+    "description": "Article title"
+  },
+  "homepage.categories.usingStandout.articles.invoices": {
+    "message": "Visa och kontrollera fakturor",
+    "description": "Article title"
+  },
+  "homepage.categories.usingStandout.articles.runs": {
+    "message": "Starta om misslyckade körningar",
+    "description": "Article title"
+  },
+  "homepage.categories.tutorials.title": {
+    "message": "Guider",
+    "description": "Category title"
+  },
+  "homepage.categories.tutorials.description": {
+    "message": "Steg-för-steg-guider för att bygga arbetsflöden och bemästra Standout.",
+    "description": "Category description"
+  },
+  "homepage.categories.tutorials.articles.building": {
+    "message": "Bygga en integration från grunden",
+    "description": "Article title"
+  },
+  "homepage.categories.tutorials.articles.automating": {
+    "message": "Automatisera processer",
+    "description": "Article title"
+  },
+  "homepage.categories.tutorials.articles.teams": {
+    "message": "Arbeta effektivt med team",
+    "description": "Article title"
+  },
+  "homepage.categories.troubleshooting.title": {
+    "message": "Felsökning",
+    "description": "Category title"
+  },
+  "homepage.categories.troubleshooting.description": {
+    "message": "Hitta snabba lösningar på vanliga problem och fel.",
+    "description": "Category description"
+  },
+  "homepage.categories.troubleshooting.articles.jobFailed": {
+    "message": "Jobbet misslyckades: vad du gör härnäst",
+    "description": "Article title"
+  },
+  "homepage.categories.troubleshooting.articles.cantLogin": {
+    "message": "Kan inte logga in",
+    "description": "Article title"
+  },
+  "homepage.categories.troubleshooting.articles.notSyncing": {
+    "message": "Integrationen synkar inte",
+    "description": "Article title"
+  },
+  "faq.title": {
+    "message": "Vanliga frågor",
+    "description": "FAQ page title"
+  },
+  "faq.description": {
+    "message": "Hitta svar på vanliga frågor om Standout och vår integrationsplattform.",
+    "description": "FAQ page description"
+  },
+  "search.category.gettingStarted": {
+    "message": "Kom igång",
+    "description": "Search result category"
+  },
+  "search.category.usingStandout": {
+    "message": "Använda Standout",
+    "description": "Search result category"
+  },
+  "search.category.tutorials": {
+    "message": "Guider",
+    "description": "Search result category"
+  },
+  "search.category.troubleshooting": {
+    "message": "Felsökning",
+    "description": "Search result category"
+  }
+}

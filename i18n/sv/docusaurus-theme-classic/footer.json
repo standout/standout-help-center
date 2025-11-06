@@ -1,0 +1,58 @@
+{
+  "link.title.Categories": {
+    "message": "Kategorier",
+    "description": "The title of the footer links column with title=Categories in the footer"
+  },
+  "link.title.Explore Standout": {
+    "message": "Utforska Standout",
+    "description": "The title of the footer links column with title=Explore Standout in the footer"
+  },
+  "link.title.Resources": {
+    "message": "Resurser",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Kom igång",
+    "description": "The label of footer link with label=Getting Started linking to /help/getting-started/"
+  },
+  "link.item.label.Using Standout": {
+    "message": "Använda Standout",
+    "description": "The label of footer link with label=Using Standout linking to /help/using-standout/"
+  },
+  "link.item.label.Tutorials": {
+    "message": "Guider",
+    "description": "The label of footer link with label=Tutorials linking to /help/tutorials/"
+  },
+  "link.item.label.Troubleshooting": {
+    "message": "Felsökning",
+    "description": "The label of footer link with label=Troubleshooting linking to /help/troubleshooting/"
+  },
+  "link.item.label.Our Website": {
+    "message": "Vår webbplats",
+    "description": "The label of footer link with label=Our Website linking to https://standout.se"
+  },
+  "link.item.label.Integration Platform": {
+    "message": "Integrationsplattform",
+    "description": "The label of footer link with label=Integration Platform linking to https://app.standout.se"
+  },
+  "link.item.label.Trust Center": {
+    "message": "Trust Center",
+    "description": "The label of footer link with label=Trust Center linking to https://trust.standout.se"
+  },
+  "link.item.label.Support Portal": {
+    "message": "Supportportal",
+    "description": "The label of footer link with label=Support Portal linking to https://standoutab.atlassian.net/servicedesk/customer/portal/5"
+  },
+  "link.item.label.Home": {
+    "message": "Hem",
+    "description": "The label of footer link with label=Home linking to /"
+  },
+  "link.item.label.FAQ": {
+    "message": "Vanliga frågor",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Standout.",
+    "description": "The footer copyright"
+  }
+}

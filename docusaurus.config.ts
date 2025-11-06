@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Standout Help Center',
+  tagline: 'Help and documentation for the Standout platform',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,57 +15,92 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://help.standout.se',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'standout', // Usually your GitHub org/user name.
+  projectName: 'standout-help-center', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization configuration
+  // English is the default locale, Swedish is also supported
+  // URLs will be /en/ and /sv/, but translation files are in i18n/ folder
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'sv'],
+    localeConfigs: {
+      sv: {
+        label: 'Svenska',
+        direction: 'ltr',
+        htmlLang: 'sv-SE',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
   },
 
   presets: [
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        docs: false, // Disable default docs
+        blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'getting-started',
+        path: 'help/getting-started',
+        routeBasePath: 'help/getting-started',
+        sidebarPath: './sidebars.ts',
+        // editUrl: 'https://github.com/standout/standout-help-center/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'using-standout',
+        path: 'help/using-standout',
+        routeBasePath: 'help/using-standout',
+        sidebarPath: './sidebars.ts',
+        // editUrl: 'https://github.com/standout/standout-help-center/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tutorials',
+        path: 'help/tutorials',
+        routeBasePath: 'help/tutorials',
+        sidebarPath: './sidebars.ts',
+        // editUrl: 'https://github.com/standout/standout-help-center/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'troubleshooting',
+        path: 'help/troubleshooting',
+        routeBasePath: 'help/troubleshooting',
+        sidebarPath: './sidebars.ts',
+        // editUrl: 'https://github.com/standout/standout-help-center/tree/main/',
+      },
+    ],
+    require.resolve('./plugins/search-index-plugin'),
   ],
 
   themeConfig: {
@@ -75,22 +110,47 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Standout Help Center',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Standout Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'gettingStartedSidebar',
+          docsPluginId: 'getting-started',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Getting Started',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'docSidebar',
+          sidebarId: 'usingStandoutSidebar',
+          docsPluginId: 'using-standout',
+          position: 'left',
+          label: 'Using Standout',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialsSidebar',
+          docsPluginId: 'tutorials',
+          position: 'left',
+          label: 'Tutorials',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'troubleshootingSidebar',
+          docsPluginId: 'troubleshooting',
+          position: 'left',
+          label: 'Troubleshooting',
+        },
+        {
+          to: '/faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -99,46 +159,62 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Categories',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/help/getting-started/',
+            },
+            {
+              label: 'Using Standout',
+              to: '/help/using-standout/',
+            },
+            {
+              label: 'Tutorials',
+              to: '/help/tutorials/',
+            },
+            {
+              label: 'Troubleshooting',
+              to: '/help/troubleshooting/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Explore Standout',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Our Website',
+              href: 'https://standout.se',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Integration Platform',
+              href: 'https://app.integrationer.se',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Trust Center',
+              href: 'https://trust.standout.se',
+            },
+            {
+              label: 'Support Portal',
+              href: 'https://standoutab.atlassian.net/servicedesk/customer/portal/5',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Resources',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Home',
+              to: '/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'FAQ',
+              to: '/faq',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Standout.`,
     },
     prism: {
       theme: prismThemes.github,

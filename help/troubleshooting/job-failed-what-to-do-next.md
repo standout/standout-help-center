@@ -36,3 +36,4 @@ When a job fails, follow these steps to diagnose and fix the issue.
 - Fix data mapping issues
 - Adjust sync frequency
 - Contact system administrator if needed
+

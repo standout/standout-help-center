@@ -36,3 +36,4 @@ Troubleshooting steps when your integration is not syncing data.
 - Update credentials
 - Adjust filters
 - Review and fix scheduling
+

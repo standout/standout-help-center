@@ -11,3 +11,4 @@ Lär dig hur du använder Standout dagligen och får ut det mesta av funktionern
 - [Hantera integrationer](./managing-integrations)
 - [Visa och kontrollera fakturor](./viewing-and-controlling-invoices)
 - [Starta om misslyckade körningar](./restarting-failed-runs)
+

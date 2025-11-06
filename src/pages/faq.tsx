@@ -31,7 +31,7 @@ export default function FAQ(): React.ReactElement {
                     Fill in your details, verify your email address, and complete your profile setup.
                   </p>
                   <p>
-                    For more detailed instructions, see our guide on <a href="/help/getting-started/creating-your-first-account">creating your first account</a>.
+                    For more detailed instructions, see our guide on <a href="/help/getting-started/create-your-account">create your account</a>.
                   </p>
                 </div>
               </details>

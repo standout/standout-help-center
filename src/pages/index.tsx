@@ -20,7 +20,7 @@ const categories = [
     description: 'Everything you need to know to get started with Standout.',
     categoryUrl: '/help/getting-started/',
     articles: [
-      {titleKey: 'homepage.categories.gettingStarted.articles.account', title: 'Creating your first account', url: '/help/getting-started/creating-your-first-account'},
+      {titleKey: 'homepage.categories.gettingStarted.articles.account', title: 'Create your account', url: '/help/getting-started/create-your-account'},
       {titleKey: 'homepage.categories.gettingStarted.articles.teammates', title: 'Inviting teammates', url: '/help/getting-started/inviting-teammates'},
       {titleKey: 'homepage.categories.gettingStarted.articles.workspace', title: 'Navigating your workspace', url: '/help/getting-started/navigating-your-workspace'},
     ],

@@ -25,3 +25,4 @@ Configure your workspace settings, team members, and preferences.
 - Use the search bar to quickly find integrations
 - Filter by status to see only active or failed integrations
 - Use keyboard shortcuts for faster navigation
+

@@ -22,3 +22,4 @@ You can assign different roles to team members:
 - **Admin**: Full access to all features
 - **Member**: Can view and manage integrations
 - **Viewer**: Read-only access
+

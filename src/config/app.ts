@@ -2,7 +2,7 @@
  * App URL configuration
  *
  * Handles environment-based configuration for the production app URL.
- * Production: https://app.standout.se
+ * Production: https://app.integrationer.se
  * Development: http://localhost:3000
  */
 
@@ -20,7 +20,7 @@ export function getAppBaseUrl(): string {
       window.location.hostname.startsWith('localhost:') ||
       process.env.NODE_ENV === 'development';
 
-    return isDevelopment ? 'http://localhost:3000' : 'https://app.standout.se';
+    return isDevelopment ? 'http://localhost:3000' : 'https://app.integrationer.se';
   }
 
   // In Node.js environment (SSR), check environment variable
@@ -28,7 +28,7 @@ export function getAppBaseUrl(): string {
     return 'http://localhost:3000';
   }
 
-  return 'https://app.standout.se';
+  return 'https://app.integrationer.se';
 }
 
 /**

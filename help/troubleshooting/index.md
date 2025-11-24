@@ -1,5 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
+title: Troubleshooting
+description: Find quick solutions to common issues and errors
+keywords: [troubleshooting, problems, errors, issues, help, support]
+tags: [troubleshooting]
 ---
 
 # Troubleshooting
@@ -8,7 +12,5 @@ Find quick solutions to common issues and errors.
 
 ## Quick Links
 
-- [Job failed: what to do next](./job-failed-what-to-do-next)
 - [Can't log in](./cant-log-in)
-- [Integration not syncing](./integration-not-syncing)
-
+- [Integration does not work](./integration-not-working)

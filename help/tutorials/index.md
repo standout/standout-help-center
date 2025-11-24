@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Tutorials
+description: Step-by-step guides for building workflows and mastering Standout
+keywords: [tutorials, guides, step by step, workflows, integrations]
+tags: [tutorials]
 ---
 
 # Tutorials
@@ -8,7 +12,6 @@ Step-by-step guides for building workflows and mastering Standout.
 
 ## Quick Links
 
-- [Building an integration from scratch](./building-an-integration-from-scratch)
-- [Automating processes](./automating-processes)
+- [Building and publishing integrations](./building-and-publishing-integrations)
 - [Working with teams efficiently](./working-with-teams-efficiently)
 

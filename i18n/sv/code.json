@@ -1,92 +1,4 @@
 {
-  "homepage.hero.title": {
-    "message": "Hej. Hur kan vi hjälpa?",
-    "description": "Hero title on homepage"
-  },
-  "homepage.search.placeholder": {
-    "message": "Sök efter hjälp...",
-    "description": "Search input placeholder"
-  },
-  "homepage.categories.gettingStarted.title": {
-    "message": "Kom igång",
-    "description": "Category title"
-  },
-  "homepage.categories.gettingStarted.description": {
-    "message": "Allt du behöver veta för att komma igång med Standout.",
-    "description": "Category description"
-  },
-  "homepage.categories.gettingStarted.articles.account": {
-    "message": "Skapa ditt konto",
-    "description": "Article title"
-  },
-  "homepage.categories.gettingStarted.articles.teammates": {
-    "message": "Bjud in teammedlemmar",
-    "description": "Article title"
-  },
-  "homepage.categories.gettingStarted.articles.workspace": {
-    "message": "Navigera i din arbetsyta",
-    "description": "Article title"
-  },
-  "homepage.categories.usingStandout.title": {
-    "message": "Använda Standout",
-    "description": "Category title"
-  },
-  "homepage.categories.usingStandout.description": {
-    "message": "Lär dig hur du använder Standout dagligen och får ut det mesta av funktionerna.",
-    "description": "Category description"
-  },
-  "homepage.categories.usingStandout.articles.integrations": {
-    "message": "Hantera integrationer",
-    "description": "Article title"
-  },
-  "homepage.categories.usingStandout.articles.invoices": {
-    "message": "Visa och kontrollera fakturor",
-    "description": "Article title"
-  },
-  "homepage.categories.usingStandout.articles.runs": {
-    "message": "Starta om misslyckade körningar",
-    "description": "Article title"
-  },
-  "homepage.categories.tutorials.title": {
-    "message": "Guider",
-    "description": "Category title"
-  },
-  "homepage.categories.tutorials.description": {
-    "message": "Steg-för-steg-guider för att bygga arbetsflöden och bemästra Standout.",
-    "description": "Category description"
-  },
-  "homepage.categories.tutorials.articles.building": {
-    "message": "Bygga en integration från grunden",
-    "description": "Article title"
-  },
-  "homepage.categories.tutorials.articles.automating": {
-    "message": "Automatisera processer",
-    "description": "Article title"
-  },
-  "homepage.categories.tutorials.articles.teams": {
-    "message": "Arbeta effektivt med team",
-    "description": "Article title"
-  },
-  "homepage.categories.troubleshooting.title": {
-    "message": "Felsökning",
-    "description": "Category title"
-  },
-  "homepage.categories.troubleshooting.description": {
-    "message": "Hitta snabba lösningar på vanliga problem och fel.",
-    "description": "Category description"
-  },
-  "homepage.categories.troubleshooting.articles.jobFailed": {
-    "message": "Jobbet misslyckades: vad du gör härnäst",
-    "description": "Article title"
-  },
-  "homepage.categories.troubleshooting.articles.cantLogin": {
-    "message": "Kan inte logga in",
-    "description": "Article title"
-  },
-  "homepage.categories.troubleshooting.articles.notSyncing": {
-    "message": "Integrationen synkar inte",
-    "description": "Article title"
-  },
   "faq.title": {
     "message": "Vanliga frågor",
     "description": "FAQ page title"
@@ -95,20 +7,575 @@
     "message": "Hitta svar på vanliga frågor om Standout och vår integrationsplattform.",
     "description": "FAQ page description"
   },
-  "search.category.gettingStarted": {
+  "faq.section.gettingStarted": {
     "message": "Kom igång",
-    "description": "Search result category"
+    "description": "Getting Started section title"
   },
-  "search.category.usingStandout": {
+  "faq.gettingStarted.createAccount.question": {
+    "message": "Hur skapar jag mitt första konto?",
+    "description": "Question about creating first account"
+  },
+  "faq.gettingStarted.createAccount.answer": {
+    "message": "För att skapa ditt första konto, gå till {appLink} och klicka på \"Registrera dig\". Fyll i dina uppgifter, verifiera din e-postadress och slutför din profiluppsättning.",
+    "description": "Answer about creating first account"
+  },
+  "faq.gettingStarted.createAccount.moreInfo": {
+    "message": "För mer detaljerade instruktioner, se vår guide om {guideLink}.",
+    "description": "Link to more information about creating account"
+  },
+  "faq.gettingStarted.inviteTeammates.question": {
+    "message": "Hur bjuder jag in teammedlemmar till min arbetsyta?",
+    "description": "Question about inviting teammates"
+  },
+  "faq.gettingStarted.inviteTeammates.answer": {
+    "message": "Gå till din organisation, klicka på \"Medlemmar\", sedan \"Ny medlem\". Ange e-postadressen, välj roll och behörigheter, och skicka inbjudan.",
+    "description": "Answer about inviting teammates"
+  },
+  "faq.gettingStarted.inviteTeammates.moreInfo": {
+    "message": "Läs mer i vår guide om {guideLink}.",
+    "description": "Link to more information about inviting teammates"
+  },
+  "faq.gettingStarted.roles.question": {
+    "message": "Vilka är de olika användarroller och behörigheter?",
+    "description": "Question about user roles"
+  },
+  "faq.gettingStarted.roles.intro": {
+    "message": "Standout erbjuder tre huvudroller:",
+    "description": "Introduction to roles"
+  },
+  "faq.gettingStarted.roles.admin.name": {
+    "message": "Admin",
+    "description": "Admin role name"
+  },
+  "faq.gettingStarted.roles.admin.description": {
+    "message": "Full åtkomst till alla funktioner och inställningar",
+    "description": "Admin role description"
+  },
+  "faq.gettingStarted.roles.collaborator.name": {
+    "message": "Medarbetare",
+    "description": "Collaborator role name"
+  },
+  "faq.gettingStarted.roles.collaborator.description": {
+    "message": "Kan skapa och redigera integrationer och konton",
+    "description": "Collaborator role description"
+  },
+  "faq.gettingStarted.roles.reader.name": {
+    "message": "Läsare",
+    "description": "Reader role name"
+  },
+  "faq.gettingStarted.roles.reader.description": {
+    "message": "Skrivskyddad åtkomst för att visa integrationer och data",
+    "description": "Reader role description"
+  },
+  "faq.section.usingStandout": {
     "message": "Använda Standout",
-    "description": "Search result category"
+    "description": "Using Standout section title"
   },
-  "search.category.tutorials": {
-    "message": "Guider",
-    "description": "Search result category"
+  "faq.usingStandout.createIntegration.question": {
+    "message": "Hur skapar jag en ny integration?",
+    "description": "Question about creating integration"
   },
-  "search.category.troubleshooting": {
-    "message": "Felsökning",
-    "description": "Search result category"
+  "faq.usingStandout.createIntegration.answer": {
+    "message": "Gå till organisationssidan, klicka på \"Ny integration\", välj trigger, lägg till steg, konfigurera inställningarna och spara integrationen.",
+    "description": "Answer about creating integration"
+  },
+  "faq.usingStandout.createIntegration.moreInfo": {
+    "message": "Se vår guide om {guideLink} för mer detaljer.",
+    "description": "Link to more information about integrations"
+  },
+  "faq.usingStandout.invoices.question": {
+    "message": "Hur visar och hanterar jag fakturor?",
+    "description": "Question about invoices"
+  },
+  "faq.usingStandout.invoices.answer": {
+    "message": "Navigera till sektionen Planer och fakturering i din organisation. Du kan visa detaljer, ladda ner fakturor och hantera din prenumeration.",
+    "description": "Answer about invoices"
+  },
+  "faq.usingStandout.invoices.moreInfo": {
+    "message": "Läs mer om {guideLink}.",
+    "description": "Link to more information about billing"
+  },
+  "faq.usingStandout.failedRuns.question": {
+    "message": "Vad ska jag göra om en körning misslyckas?",
+    "description": "Question about failed runs"
+  },
+  "faq.usingStandout.failedRuns.answer": {
+    "message": "Om en körning misslyckas, kontrollera först felmeddelandet och granska loggarna. Verifiera dina anslutningar och inloggningsuppgifter. Du kan starta om misslyckade körningar från körningshistoriken.",
+    "description": "Answer about failed runs"
+  },
+  "faq.usingStandout.failedRuns.moreInfo": {
+    "message": "För detaljerade felsökningssteg, se vår guide om {guideLink}.",
+    "description": "Link to more information about runs with errors"
+  },
+  "faq.section.integrations": {
+    "message": "Integrationer",
+    "description": "Integrations section title"
+  },
+  "faq.integrations.systems.question": {
+    "message": "Vilka system kan jag integrera med Standout?",
+    "description": "Question about which systems can be integrated"
+  },
+  "faq.integrations.systems.answer": {
+    "message": "Standout stödjer integration med många populära affärssystem och API:er. Kontrollera kontosidan i din organisation för att se tillgängliga alternativ, eller kontakta support för att fråga om specifika integrationer.",
+    "description": "Answer about available integrations"
+  },
+  "faq.integrations.syncFrequency.question": {
+    "message": "Hur ofta synkar integrationer?",
+    "description": "Question about sync frequency"
+  },
+  "faq.integrations.syncFrequency.intro": {
+    "message": "Synkfrekvensen beror på dina integrationsinställningar. Du kan konfigurera integrationer att synka:",
+    "description": "Introduction to sync frequency"
+  },
+  "faq.integrations.syncFrequency.realtime": {
+    "message": "I realtid (när data ändras)",
+    "description": "Real-time sync option"
+  },
+  "faq.integrations.syncFrequency.scheduled": {
+    "message": "Enligt schema (varje timme, dagligen, veckovis, etc.)",
+    "description": "Scheduled sync option"
+  },
+  "faq.integrations.syncFrequency.manual": {
+    "message": "Manuellt (på begäran)",
+    "description": "Manual sync option"
+  },
+  "faq.integrations.syncFrequency.note": {
+    "message": "Varje integration kan ha sitt eget synkschema konfigurerat.",
+    "description": "Note about sync schedule"
+  },
+  "faq.integrations.stoppedWorking.question": {
+    "message": "Vad händer om en integration slutar fungera?",
+    "description": "Question about integration not working"
+  },
+  "faq.integrations.stoppedWorking.answer": {
+    "message": "Om en integration slutar fungera kommer Standout att meddela dig om felet. Kontrollera felloggarna för detaljer, verifiera att dina inloggningsuppgifter fortfarande är giltiga och säkerställ att det externa systemet är tillgängligt.",
+    "description": "Answer about integration not working"
+  },
+  "faq.integrations.stoppedWorking.moreInfo": {
+    "message": "Se vår {guideLink} för mer hjälp.",
+    "description": "Link to troubleshooting guide"
+  },
+  "faq.section.accountBilling": {
+    "message": "Konto & Fakturering",
+    "description": "Account & Billing section title"
+  },
+  "faq.billing.updateAccount.question": {
+    "message": "Hur uppdaterar jag min kontoinformation?",
+    "description": "Question about updating account"
+  },
+  "faq.billing.updateAccount.answer": {
+    "message": "Gå till dina organisationsinställningar i Standout. Därifrån kan du uppdatera din profilinformation, e-postadress, lösenord och notifieringsinställningar.",
+    "description": "Answer about updating account"
+  },
+  "faq.billing.cancelSubscription.question": {
+    "message": "Hur avbryter jag min prenumeration?",
+    "description": "Question about canceling subscription"
+  },
+  "faq.billing.cancelSubscription.answer": {
+    "message": "Kontakta din kontoadministratör eller kontakta vårt supportteam för att avbryta din prenumeration. Vi är här för att hjälpa och kan assistera med eventuella frågor du kan ha.",
+    "description": "Answer about canceling subscription"
+  },
+  "faq.billing.contactBilling.question": {
+    "message": "Vem kan jag kontakta för faktureringsfrågor?",
+    "description": "Question about billing contact"
+  },
+  "faq.billing.contactBilling.answer": {
+    "message": "För faktureringsfrågor, vänligen kontakta vårt supportteam via {supportLink} eller kontakta din kontohanterare.",
+    "description": "Answer about billing contact"
+  },
+  "faq.section.support": {
+    "message": "Support",
+    "description": "Support section title"
+  },
+  "faq.support.getHelp.question": {
+    "message": "Hur kan jag få hjälp om jag fastnar?",
+    "description": "Question about getting help"
+  },
+  "faq.support.getHelp.intro": {
+    "message": "Vi erbjuder flera sätt att få hjälp:",
+    "description": "Introduction to help options"
+  },
+  "faq.support.getHelp.helpCenter": {
+    "message": "Bläddra i vårt {helpLink} för guider och tutorials",
+    "description": "Help center link"
+  },
+  "faq.support.getHelp.troubleshooting": {
+    "message": "Kontrollera vår {troubleshootingLink} för vanliga problem",
+    "description": "Troubleshooting link"
+  },
+  "faq.support.getHelp.supportPortal": {
+    "message": "Kontakta support via vår {supportLink}",
+    "description": "Support portal link"
+  },
+  "faq.support.hours.question": {
+    "message": "Vilka är era supporttider?",
+    "description": "Question about support hours"
+  },
+  "faq.support.hours.answer": {
+    "message": "Vårt supportteam är tillgängligt under kontorstid. För brådskande ärenden, vänligen kontakta oss via Supportportalen så svarar vi så snart som möjligt.",
+    "description": "Answer about support hours"
+  },
+  "homepage.hero.title": {
+    "message": "Hej. Hur kan vi hjälpa?",
+    "description": "Hero title on homepage"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Denna sida har kraschat.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scrolla till toppen",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigation av Blogglista",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nyare Inlägg",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Äldre Inlägg",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arkiv",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arkiv",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigation av Blogginlägg",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nyare Inlägg",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Äldre Inlägg",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Visa Alla Taggar",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ljust utseende",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mörkt utseende",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Växla mellan mörkt och ljust utseende (currently {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Sökväg",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 artikel|{count} artiklar",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Dokumentsidor",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Föregående",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Nästa",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Ett dokument taggat|{count} dokument taggade",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} med \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Detta är ej utgiven dokumentation för {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Detta är dokumentationen för {siteTitle} {versionLabel}, som inte längre aktivt underhålls.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "För senaste dokumentationen, se {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "senaste versionen",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Redigera denna sida",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direktlänk till {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " den {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " av {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Senast uppdaterad{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Sidan Hittades Inte",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versioner",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Taggar:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Stäng",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "varning",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "risk",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "anteckning",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tips",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation av senaste blogginläggen",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "Vi kunde inte hitta det du letade efter.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Vänligen kontakta ägaren av webbplatsen som länkade dig till den ursprungliga webbadressen och låt dem veta att denna länk är trasig.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Under denna sida",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Språk",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "En minut att läsa|{readingTime} min att läsa",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopiera",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopierad",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopiera kod till urklipp",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Växla radbrytning",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Läs Mer",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Läs mer om {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Hemsida",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Stäng sidofältet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Stäng sidofältet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Tillbaka till huvudmeny",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Visa/göm navigationen",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expandera sidofältet",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expandera sidofältet",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Ett inlägg|{count} inlägg",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} taggade me \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Försök igen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Hoppa till huvudinnehåll",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Taggar",
+    "description": "The title of the tag list page"
+  },
+  "faq.link.creatingFirstAccount": {
+    "message": "skapa ditt första konto",
+    "description": "Link text for creating your first account"
+  },
+  "faq.link.invitingTeammates": {
+    "message": "bjuda in teammedlemmar",
+    "description": "Link text for inviting teammates"
+  },
+  "faq.link.integrations": {
+    "message": "integrationer",
+    "description": "Link text for integrations"
+  },
+  "faq.link.plansAndBilling": {
+    "message": "planer och fakturering",
+    "description": "Link text for plans and billing"
+  },
+  "faq.link.runsWithErrors": {
+    "message": "körningar med fel",
+    "description": "Link text for runs with errors"
+  },
+  "faq.link.troubleshootingGuide": {
+    "message": "felsökningsguide",
+    "description": "Link text for troubleshooting guide"
+  },
+  "faq.link.helpCenter": {
+    "message": "Hjälpcenter",
+    "description": "Link text for Help Center"
+  },
+  "faq.link.troubleshootingSection": {
+    "message": "felsökningssektion",
+    "description": "Link text for troubleshooting section"
   }
 }

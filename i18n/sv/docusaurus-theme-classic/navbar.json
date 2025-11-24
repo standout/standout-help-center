@@ -16,7 +16,7 @@
     "description": "Navbar item with label Using Standout"
   },
   "item.label.Tutorials": {
-    "message": "Guider",
+    "message": "Tutorials",
     "description": "Navbar item with label Tutorials"
   },
   "item.label.Troubleshooting": {
@@ -24,7 +24,7 @@
     "description": "Navbar item with label Troubleshooting"
   },
   "item.label.FAQ": {
-    "message": "Vanliga frågor",
+    "message": "FAQ",
     "description": "Navbar item with label FAQ"
   }
 }

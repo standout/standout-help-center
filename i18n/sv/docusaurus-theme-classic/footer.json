@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=Using Standout linking to /help/using-standout/"
   },
   "link.item.label.Tutorials": {
-    "message": "Guider",
+    "message": "Tutorials",
     "description": "The label of footer link with label=Tutorials linking to /help/tutorials/"
   },
   "link.item.label.Troubleshooting": {
@@ -33,7 +33,7 @@
   },
   "link.item.label.Integration Platform": {
     "message": "Integrationsplattform",
-    "description": "The label of footer link with label=Integration Platform linking to https://app.standout.se"
+    "description": "The label of footer link with label=Integration Platform linking to https://app.integrationer.se"
   },
   "link.item.label.Trust Center": {
     "message": "Trust Center",
@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=Home linking to /"
   },
   "link.item.label.FAQ": {
-    "message": "Vanliga frågor",
+    "message": "FAQ",
     "description": "The label of footer link with label=FAQ linking to /faq"
   },
   "copyright": {

@@ -22,7 +22,7 @@ const categories = [
     articles: [
       {titleKey: 'homepage.categories.gettingStarted.articles.account', title: 'Create your account', url: '/help/getting-started/create-your-account'},
       {titleKey: 'homepage.categories.gettingStarted.articles.teammates', title: 'Inviting teammates', url: '/help/getting-started/inviting-teammates'},
-      {titleKey: 'homepage.categories.gettingStarted.articles.workspace', title: 'Navigating your workspace', url: '/help/getting-started/navigating-your-workspace'},
+      {titleKey: 'homepage.categories.gettingStarted.articles.search', title: 'Using search', url: '/help/getting-started/using-search'},
     ],
   },
   {
@@ -33,9 +33,9 @@ const categories = [
     description: 'Learn how to use Standout day-to-day and make the most of its features.',
     categoryUrl: '/help/using-standout/',
     articles: [
-      {titleKey: 'homepage.categories.usingStandout.articles.integrations', title: 'Managing integrations', url: '/help/using-standout/managing-integrations'},
-      {titleKey: 'homepage.categories.usingStandout.articles.invoices', title: 'Viewing and controlling invoices', url: '/help/using-standout/viewing-and-controlling-invoices'},
-      {titleKey: 'homepage.categories.usingStandout.articles.runs', title: 'Restarting failed runs', url: '/help/using-standout/restarting-failed-runs'},
+      {titleKey: 'homepage.categories.usingStandout.articles.integrations', title: 'Integrations', url: '/help/using-standout/integrations'},
+      {titleKey: 'homepage.categories.usingStandout.articles.members', title: 'Members', url: '/help/using-standout/members'},
+      {titleKey: 'homepage.categories.usingStandout.articles.billing', title: 'Plans and billing', url: '/help/using-standout/plans-and-billing'},
     ],
   },
   {
@@ -46,8 +46,7 @@ const categories = [
     description: 'Step-by-step guides for building workflows and mastering Standout.',
     categoryUrl: '/help/tutorials/',
     articles: [
-      {titleKey: 'homepage.categories.tutorials.articles.building', title: 'Building an integration from scratch', url: '/help/tutorials/building-an-integration-from-scratch'},
-      {titleKey: 'homepage.categories.tutorials.articles.automating', title: 'Automating processes', url: '/help/tutorials/automating-processes'},
+      {titleKey: 'homepage.categories.tutorials.articles.building', title: 'Building and publishing integrations', url: '/help/tutorials/building-and-publishing-integrations'},
       {titleKey: 'homepage.categories.tutorials.articles.teams', title: 'Working with teams efficiently', url: '/help/tutorials/working-with-teams-efficiently'},
     ],
   },
@@ -59,9 +58,8 @@ const categories = [
     description: 'Find quick solutions to common issues and errors.',
     categoryUrl: '/help/troubleshooting/',
     articles: [
-      {titleKey: 'homepage.categories.troubleshooting.articles.jobFailed', title: 'Job failed: what to do next', url: '/help/troubleshooting/job-failed-what-to-do-next'},
       {titleKey: 'homepage.categories.troubleshooting.articles.cantLogin', title: "Can't log in", url: '/help/troubleshooting/cant-log-in'},
-      {titleKey: 'homepage.categories.troubleshooting.articles.notSyncing', title: 'Integration not syncing', url: '/help/troubleshooting/integration-not-syncing'},
+      {titleKey: 'homepage.categories.troubleshooting.articles.notWorking', title: 'Integration does not work', url: '/help/troubleshooting/integration-not-working'},
     ],
   },
 ];

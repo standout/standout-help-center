@@ -34,7 +34,7 @@ interface ProductLinkProps {
 /**
  * ProductLink component
  *
- * Creates a link to the production app (app.standout.se or localhost:3000 in development).
+ * Creates a link to the production app (app.integrationer.se or localhost:3000 in development).
  * Automatically uses the correct URL based on the environment.
  *
  * @example

@@ -144,7 +144,7 @@ When React components are created or updated, follow these accessibility princip
 
 ## Production URL Configuration
 
-The production app is located at `https://app.standout.se`. Locally it often runs on `localhost:3000`.
+The production app is located at `https://app.integrationer.se`. Locally it often runs on `localhost:3000`.
 
 - Use `src/config/app.ts` to configure the correct URL based on environment
 - Use the `ProductLink` component for links to the product

@@ -25,7 +25,7 @@ You may not be able to see all events in the activity log. The are scoped by mul
 
 ## Viewing activity log
 
-1. Go to the "Activity log" section in your organization
+1. Go to the "Activity log" section in the main menu
 2. You'll see a list of events in chronological order (newest first)
 3. Each event shows:
    - **Event**: The type of change that happened
@@ -55,9 +55,9 @@ Common event types include:
 - **Deactivated integration**: When an integration is deactivated
 - **Deleted integration**: When an integration is deleted
 - **Restored integration**: When a deleted integration is restored
-- **New account**: When an account is created
-- **Updated account**: When an account is modified
-- **Deleted account**: When an account is removed
+- **New connection**: When a connection is created
+- **Updated connection**: When a connection is modified
+- **Deleted connection**: When a connection is removed
 - **New subscription started**: When a subscription begins
 - **Subscription canceled**: When a subscription ends
 - **Updated invoice**: When an invoice is modified

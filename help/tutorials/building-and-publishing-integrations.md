@@ -37,7 +37,7 @@ Draft integrations let you:
 Before publishing, you can send your draft for review:
 
 1. Open your draft integration
-2. Click "Send for review"
+2. Click "Create review"
 3. The draft is marked as pending review
 4. Reviewers can view and comment on your changes
 

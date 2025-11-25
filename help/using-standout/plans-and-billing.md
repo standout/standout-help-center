@@ -31,12 +31,12 @@ To update billing details:
 1. Go to the Billing page
 2. Click "Edit" in the billing section
 3. Uppdate billing details.
-4. Setup a payment method. Card or invoice. Invoice are only available for organizations in Sweden for now.
+4. Setup a payment method. Card or invoice. Invoice is only available for organizations in Sweden for now.
 5. Click "Save" to apply changes
 
 ## Changing your plan
 
-_Note that some organizations cannot change plans. It may be looked depending on your contract with us or with your partner that are managing your account._
+_Note that some organizations cannot change plans. It may be locked depending on your contract with us or with your partner that are managing your account._
 
 To switch to a different plan:
 
@@ -86,7 +86,7 @@ Click on an invoice to:
 Credits are used when integrations run:
 
 - A integration run consumes 1 credit.
-- Integrations that takes longer time to run may consume more credits. 1 credit per started 30 seconds of runtime.
+- Integrations that take longer time to run may consume more credits. 1 credit per started 30 seconds of runtime.
 - More advanced steps in the integration may consume additional credits. Like the iterator that consumes 1 credit per iteration.
 - Each plan includes a monthly credit allowance
 - Credits reset monthly

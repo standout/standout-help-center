@@ -19,9 +19,9 @@ Best practices for collaborating with your team in Standout.
 
 ### Communication
 
-- Use comments or descriptions when avalable to add context to your work.
+- Use comments or descriptions when available to add context to your work.
 - Share important updates with the team.
-- Document decisions and changes with comments or descriptions when avalable.
+- Document decisions and changes with comments or descriptions when available.
 
 ## Collaboration tips
 

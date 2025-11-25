@@ -26,7 +26,7 @@ doesn't start when new events are detected.
 
 3. **Review the organization settings**
    - Verify that you still have credits to run the integration.
-   - Check if any bills from us are overdue, if so, you may need to pay to continue using the integration.
+   - Check if any invoices from us are overdue, if so, you may need to pay to continue using the integration.
    - Check that you are still subscribed to the plan that allows you to run the integration.
 
 ## Common issues
@@ -35,5 +35,5 @@ doesn't start when new events are detected.
 - The connection to the service is not working.
 - The organization is not subscribed to the plan that allows you to run the integration.
 - The organization has no credits left to run the integration.
-- The organization has overdue bills.
+- The organization has overdue invoices.
 - The integration is not configured correctly.

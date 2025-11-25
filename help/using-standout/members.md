@@ -14,8 +14,8 @@ Go to the "Members" tab in an organization to see all team members.
 
 - The list shows all members and their roles
 - You can see who invited each member
-- Already confirmed users gets instant access and a email notification about it.
-- Unconfirmed users show as "awaiting confirmation" and gets an email invitation to confirm their user account and access the organization.
+- Already confirmed users get instant access and an email notification about the new invitation.
+- Unconfirmed users appear with the note "awaiting confirmation" and get an email invitation to confirm their user account in order to access the organization.
 
 ## Inviting a new member
 

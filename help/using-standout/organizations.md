@@ -11,7 +11,7 @@ Organizations are the main way to organize your work in Standout. Each organizat
 ## Creating a new organization
 
 1. Go to the [Organizations page](https://app.integrationer.se/organizations)
-2. Click "Create new..." or "New organization"
+2. Click "Create new" or "New organization"
 3. Follow the steps to create the organization:
 
 ## Editing an organization

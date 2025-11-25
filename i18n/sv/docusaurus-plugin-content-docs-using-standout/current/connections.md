@@ -6,7 +6,7 @@ keywords: [anslutna konton, konton, anslutningar, tjänster, hantera konton]
 tags: [using-standout, connections, accounts]
 ---
 
-Anslutna konton (kallas också anslutningar) är de tjänster du har länkat till Standout, som Shopify, Fortnox, Stripe eller andra integrationspartners. Varje anslutning låter dig reagera på händelser eller utföra åtgärder på den tjänsten.
+Anslutna konton (kallas också anslutningar) är de tjänster du har länkat till Standout, som exempelvis Shopify, Fortnox, Stripe. Varje anslutning låter dig reagera på händelser eller utföra åtgärder på den tjänsten.
 
 ## Visa konton i Kontosektionen
 

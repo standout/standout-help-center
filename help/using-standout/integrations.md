@@ -13,7 +13,7 @@ Integrations (also called workflows) automate tasks between different services. 
 **Note**: Only users with Admin or Collaborator role can create integrations.
 
 1. Go to the organization page
-2. Click "New integration" or "New workflow"
+2. Click "New integration"
 3. Choose a trigger (what starts the integration)
 4. Add steps (what actions to perform)
 5. Configure the settings
@@ -24,7 +24,7 @@ Integrations (also called workflows) automate tasks between different services. 
 The Integrations page has two tabs:
 
 - **Active**: Shows integrations that are currently running
-- **Inactive**: Shows integrations that are paused or stopped
+- **Inactive**: Shows integrations that are paused
 
 Switch between tabs to see different integration states.
 

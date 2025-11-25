@@ -40,7 +40,7 @@ If you have Admin or Collaborator role, you can open an account to see its detai
 - **Status**: Whether it's connected and working
 - **Connection info**: Details about the connection
 - **Metadata**: Additional information about the account
-- **Workflows**: Which integrations use this account
+- **Integrations**: Which integrations use this account
 - **Errors**: Any connection or usage errors
 
 ## Managing account settings
@@ -51,7 +51,7 @@ You can:
 
 - **Edit**: Update account name or settings (Admin and Collaborator only)
 - **View connection**: Check connection status
-- **View workflows**: See which integrations use this account
+- **View integrations**: See which integrations use this account
 - **View errors**: Check for any problems
 
 ## Account errors
@@ -68,8 +68,8 @@ If an account has errors, you'll see them in the account details:
 
 To remove an account:
 
-1. Open the account
-2. Click "Delete" or "Remove"
+1. Open the accounts page
+2. Click "Delete" or "Remove" for the account you want to remove
 3. Confirm the removal
 
 **Note**: Make sure no integrations are using the account before removing it.

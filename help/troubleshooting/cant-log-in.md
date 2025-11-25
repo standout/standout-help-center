@@ -19,7 +19,7 @@ Troubleshooting steps if you're having trouble logging in to Standout.
 
 ## Password reset
 
-1. Go to the [fortgot password page](https://app.integrationer.se/users/password/new)
+1. Go to the [forgot password page](https://app.integrationer.se/users/password/new)
 2. Enter your email address
 3. Check your email for reset instructions
 4. Follow the link to create a new password
@@ -30,4 +30,3 @@ Troubleshooting steps if you're having trouble logging in to Standout.
 - Try a different browser
 - Check if your account is active
 - Contact support if problems persist
-

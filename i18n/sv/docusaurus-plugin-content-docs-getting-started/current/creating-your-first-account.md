@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
-title: Skapa ditt första konto
-description: Lär dig hur du skapar ditt första Standout-konto och kommer igång
-keywords: [skapa konto, registrera, första konto, kontouppsättning, kom igång]
+title: Skapa ditt användarkonto
+description: Lär dig hur du skapar ditt användarkonto och kommer igång
+keywords: [skapa konto, registrera, användarkonto, kontouppsättning, kom igång]
 tags: [getting-started, account]
 ---
 
-# Skapa ditt första konto
+# Skapa ditt användarkonto
 
-Lär dig hur du skapar ditt första Standout-konto och kommer igång.
+Lär dig hur du skapar ditt användarkonto och kommer igång.
 
-## Steg för att skapa ditt konto
+## Steg för att skapa ditt användarkonto
 
 1. Gå till [app.integrationer.se](https://app.integrationer.se)
 2. Klicka på "Registrera dig"
@@ -20,8 +20,8 @@ Lär dig hur du skapar ditt första Standout-konto och kommer igång.
 
 ## Vad händer härnäst?
 
-Efter att du har skapat ditt konto kan du:
+Efter att du har skapat ditt användarkonto kan du:
 
-- Bjuda in teammedlemmar till din organisation
-- Sätta upp din första integration
+- Bjuda in medlemmar till din organisation
+- Sätta upp din integration
 - Utforska dina organisationer och integrationer

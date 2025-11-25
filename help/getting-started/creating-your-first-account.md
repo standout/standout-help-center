@@ -1,14 +1,14 @@
 ---
 sidebar_position: 2
-title: Creating your first account
-description: Learn how to create your first Standout account and get started
-keywords: [create account, sign up, first account, account setup, getting started]
+title: Creating your user account
+description: Learn how to create your user account and get started
+keywords: [create account, sign up, user account, account setup, getting started]
 tags: [getting-started, account]
 ---
 
-# Creating your first account
+# Creating your user account
 
-Learn how to create your first Standout account and get started.
+Learn how to create your user account and get started.
 
 ## Steps to create your account
 

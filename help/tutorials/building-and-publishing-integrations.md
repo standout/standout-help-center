@@ -45,7 +45,7 @@ Before publishing, you can send your draft for review:
 
 If you're asked to review a draft:
 
-1. Open the review link or find it in your reviews
+1. Open the review link
 2. View the changes made in the draft
 3. Add comments if needed
 4. Approve or reject the draft

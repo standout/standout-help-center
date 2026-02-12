@@ -85,9 +85,12 @@ Click on an invoice to:
 
 Credits are used when integrations run:
 
-- A integration run consumes 1 credit.
+- An integration run consumes 1 credit.
 - Integrations that take longer time to run may consume more credits. 1 credit per started 30 seconds of runtime.
-- More advanced steps in the integration may consume additional credits. Like the iterator that consumes 1 credit per iteration.
+- More advanced steps in the integration may consume additional credits.
+- The iterator consumes 1 extra credit per iteration.
+- Example: A run with an iterator and 1 iteration consumes at least 2 credits (1 for the run + 1 for the iteration).
+- Example: A run with an iterator and 2 iterations consumes at least 3 credits (1 for the run + 2 for the iterations).
 - Each plan includes a monthly credit allowance
 - Credits reset monthly
 - You can buy extra credits if needed and those will most often have a longer validity than the plan credits.

@@ -87,7 +87,10 @@ Krediter används när integrationer körs:
 
 - En integrationskörning förbrukar 1 kredit.
 - Integrationer som tar längre tid att köra kan förbruka fler krediter. 1 kredit per startad 30 sekunder körtid.
-- Mer avancerade steg i integrationen kan förbruka ytterligare krediter. Som iteratorn som förbrukar 1 kredit per iteration.
+- Mer avancerade steg i integrationen kan förbruka ytterligare krediter.
+- Iteratorn förbrukar 1 extra kredit per iteration.
+- Exempel: En körning med en iterator och 1 iteration förbrukar minst 2 krediter (1 för körningen + 1 för iterationen).
+- Exempel: En körning med en iterator och 2 iterationer förbrukar minst 3 krediter (1 för körningen + 2 för iterationerna).
 - Varje plan inkluderar en månadsvis kredittilldelning
 - Krediter återställs månadsvis
 - Du kan köpa extra krediter om det behövs och de kommer oftast att ha en längre giltighet än plankrediterna.
